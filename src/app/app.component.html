@@ -1,15 +1,19 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" routerLink="">AlienList</a>
+<div class="body">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="">AlienList</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="casual-encounters">Casual Encounters of the Third Kind 🍌</a></li>
+        <li><a routerLink="pets">Pets 🐶🐐🐷</a></li>
+        <li><a routerLink="for-sale">For Sale 👾🚀</a></li>
+      </ul>
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a routerLink="casual-encounters">Casual Encounters of the Third Kind 🍌</a></li>
-    </ul>
-  </div>
-</nav>
+  </nav>
 
-<div class="container">
-  <h1>{{title}}</h1>
-  <router-outlet></router-outlet>
+  <div class="container">
+    <h1>{{title}}</h1>
+    <router-outlet></router-outlet>
+  </div>
 </div>
