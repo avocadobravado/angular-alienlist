@@ -1,0 +1,8 @@
+<div class="well">
+   <div (click)="isDone(currentListing)" *ngFor="let currentListing of childListingList">
+     <b><h2>{{currentListing.title}}</h2></b>
+     <b><h2><img src={{currentListing.image}} class="appended-img"></h2></b>
+     <!-- <b><h2>{{currentListing.category}}</h2></b> -->
+     <b><h2>{{currentListing.description}}</h2></b>
+   </div><!--ngFor-->
+</div><!--Well-->

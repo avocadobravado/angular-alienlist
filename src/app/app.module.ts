@@ -15,6 +15,8 @@ import { Pets1Component } from './pets1/pets1.component';
 import { Pets2Component } from './pets2/pets2.component';
 import { Forsale1Component } from './forsale1/forsale1.component';
 import { Forsale2Component } from './forsale2/forsale2.component';
+import { NewListingComponent } from './new-listing/new-listing.component';
+import { ListingListComponent } from './listing-list/listing-list.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { Forsale2Component } from './forsale2/forsale2.component';
     Pets1Component,
     Pets2Component,
     Forsale1Component,
-    Forsale2Component
+    Forsale2Component,
+    NewListingComponent,
+    ListingListComponent
   ],
   imports: [
     BrowserModule,

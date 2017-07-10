@@ -1,0 +1,23 @@
+<label>Enter Title Description:</label>
+<input #newTitle>
+<br>
+
+<label>Enter Image URL:</label>
+<input #newImage>
+<br>
+
+<select #newCategory>
+  <option [value]="1">Casual Encounters</option>
+  <option [value]="2">Pets</option>
+  <option [value]="3">For Sale</option>
+</select>
+<br>
+
+<label>Enter Listing Description:</label>
+<input #newDescription>
+<br>
+
+<button (click)="submitForm(newTitle.value, newImage.value, newCategory.value, newDescription.value); newTitle.value='';
+newImage.value='';
+newDescription.value='';
+">Add</button>
