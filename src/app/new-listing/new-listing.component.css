@@ -1,0 +1,7 @@
+label, input {
+  display: block;
+}
+
+.well {
+  width: 800px;
+}

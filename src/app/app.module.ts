@@ -17,6 +17,7 @@ import { Forsale1Component } from './forsale1/forsale1.component';
 import { Forsale2Component } from './forsale2/forsale2.component';
 import { NewListingComponent } from './new-listing/new-listing.component';
 import { ListingListComponent } from './listing-list/listing-list.component';
+import { CategoryPipe } from './category.pipe';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ListingListComponent } from './listing-list/listing-list.component';
     Forsale1Component,
     Forsale2Component,
     NewListingComponent,
-    ListingListComponent
+    ListingListComponent,
+    CategoryPipe
   ],
   imports: [
     BrowserModule,

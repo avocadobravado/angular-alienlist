@@ -16,4 +16,6 @@ export class WelcomeComponent {
   addListing(newListingFromChild: Listing) {
     this.masterListingList.push(newListingFromChild);
   }
+
+  filterByCategory: string = "categoryList";
 }

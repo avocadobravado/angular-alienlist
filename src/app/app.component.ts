@@ -9,6 +9,7 @@ import { Listing } from './listing.model';
 export class AppComponent {
   title = 'AlienList';
 
+
   // masterListingList: Listing[] = [
   // ];
   //
